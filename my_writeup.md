@@ -19,10 +19,10 @@ The goals / steps of this project are the following:
 
 [image1]: ./output_images/undistort_output.png "Undistorted"
 [image2]: ./output_images/test1_undistorted.jpg "Road Transformed"
-[image3]: ./output_images/thresholded_binary_images.jpg "Binary Example"
+[image3]: ./output_images/thresholded_binary_images.png "Binary Example"
 [image4]: ./output_images/create_birdeye_binary_image.jpg "Warp Example"
-[image5]: ./output_images/lane_identification "Fit Visual"
-[image6]: ./output_images/example_output.jpg "Output"
+[image5]: ./output_images/lane_identification.png "Fit Visual"
+[image6]: ./output_images/example_output.png "Output"
 [video1]: ./output_images/project_video.mp4 "Video"
 [video2]: ./output_images/project_video_extra.mp4 "Video"
 
@@ -44,6 +44,8 @@ I start by preparing "object points", which will be the (x, y, z) coordinates of
 Again, `objp` is just coordinates of 6 x 9 chessboard like ((0,0), (1,0), (2,0) ....,(8,5)), obtained by 'np.mgrid[0:9,0:6].T.reshape(-1,2)'. It has no measurement unit yet.
 
 Then, in the second sell, i then used the output `objpoints` and `imgpoints` to compute the camera calibration(mtx) and distortion coefficients using the `cv2.calibrateCamera()` function. mtx is:
+
+|:-------------:|:-------------:|:--------------:|
 | 1157          | 0             | 667            |
 | 0             | 1152          | 386            |
 | 0             | 0             | 1              |
