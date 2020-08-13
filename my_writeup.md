@@ -156,8 +156,8 @@ global cum_rb, cum_lb
 cum_lb.append(lx_base); cum_rb.append(rx_base)
 
 if len(cum_lb) >= 20:
-    lx_base = np.sum(cum_lb[-N:]) // 20
-    rx_base = np.sum(cum_rb[-N:]) // 20
+    lx_base = np.sum(cum_lb[-20:]) // 20
+    rx_base = np.sum(cum_rb[-20:]) // 20
 ```
 
 Here's a [link to my video result](./output_images/project_video.mp4)
