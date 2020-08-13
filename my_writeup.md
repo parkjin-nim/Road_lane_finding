@@ -32,7 +32,6 @@ The goals / steps of this project are the following:
 
 --- 
 
-
 All output images can be found under ./output_images directory !
 
 ### Camera Calibration
@@ -45,10 +44,11 @@ Again, `objp` is just coordinates of 6 x 9 chessboard like ((0,0), (1,0), (2,0) 
 
 Then, in the second sell, i then used the output `objpoints` and `imgpoints` to compute the camera calibration(mtx) and distortion coefficients using the `cv2.calibrateCamera()` function. mtx is:
 
-|:-------------:|:-------------:|:--------------:|
-| 1157          | 0             | 667            |
-| 0             | 1152          | 386            |
-| 0             | 0             | 1              |
+|               |               |                | 
+|:-------------:|:-------------:|:--------------:| 
+| 1157          | 0             | 667            | 
+| 0             | 1152          | 386            | 
+| 0             | 0             | 1              | 
 
 I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
 
@@ -163,7 +163,7 @@ if len(cum_lb) >= 20:
     rx_base = np.sum(cum_rb[-N:]) // 20
 ```
 
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](./output_images/project_video.mp4)
 
 ---
 
