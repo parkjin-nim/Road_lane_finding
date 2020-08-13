@@ -50,7 +50,7 @@ I applied this distortion correction to the test image using the `cv2.undistort(
 
 #### 1. Distortion-corrected image
 
-Distortion correction step was done on ./test_images/test1.jpg. I can observe that some part of the back of the white car was cut. I apply the distortion correction to one of the test images like this one:
+Distortion correction step was done on ./test_images/test1.jpg. I apply the distortion correction to one of the test images like this one and we can observe that the back part of white car was cut:
 
 ![alt text][image2]
 
