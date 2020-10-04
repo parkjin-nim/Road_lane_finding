@@ -160,4 +160,3 @@ Here's a [link to my video result](./output_images/project_video.mp4)
 
 ## Outro.
 
-As usual, parameter tunnings and thresholding were time-comsumming. De-noising issue was also a big struggling point. The empirical setting of limitaions needs to be further improved with more sophisticated de-nosing filters or calculation.
